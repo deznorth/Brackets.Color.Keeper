@@ -1,0 +1,119 @@
+
+
+#brackets-pal-icon {
+    background-image: url('images/viewcalc.svg');
+}
+
+#brackets-pal-icon.active {
+    background-image: url('images/viewcalc-active.svg');
+}
+
+#mainpanel{
+	background-color: #222222;
+	overflow: scroll;
+}
+
+#lab{
+	width: 100%;
+	padding: 2px 0;
+	background-color: #424242;
+}
+
+
+
+#vari, #btna, #cls, #hds, #show{
+	color: #ccc !important;
+	font-size: inherit;
+    font-weight: bold;
+    padding: 2px 16px;
+    margin: 4px 8px;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+	
+	border: 0 none;
+	box-shadow: 1px 1px 5px rgba(60,60,60,05);
+	background-color: #757575;
+	
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  	transition: all 250ms ease;
+}
+
+#btna:hover, #cls:hover, #hds:hover, #show:hover{
+	background-color: #7C4DFF;
+}
+
+
+#vari{
+	width: 100px;
+}
+
+#cls, #hds{
+	float: right;
+}
+
+#show{
+	display: none;
+	float: right;
+	background-color: #424242;
+	color: #ccc;
+}
+
+#show:hover{
+	background-color: #7C4DFF;
+}
+
+#fi{
+	width: 100%;
+}
+
+.feld{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 5px;
+	cursor: default;
+	display: block;
+	
+	border: 1px solid #000;
+	
+-webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  	transition: all 250ms ease;
+}
+
+.feld:hover{
+	position: relative;
+	box-shadow: 2px 2px 6px 0px #424242;
+}
+
+.feld:hover .delbtn{
+	display: block;
+}
+
+.delbtn{
+	top: 0;
+	right: 0;
+	position: absolute;
+	
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	display: none;
+
+	background-color: #424242;
+}
+
+.delimg{
+	display: block;
+	width: 16px;
+	height: 16px;
+	margin: 2px 2px;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(images/del.svg);
+}

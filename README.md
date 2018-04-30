@@ -5,3 +5,5 @@ Here is his webpage http://www.pixelhoch2.de/ and extension http://brackets.dnba
 It allows you to add colors to a palette and then insert them into your code from there.
 
 Simple yet useful.
+
+![Alt text](images/screenshot.jpg?raw=true "Screenshot")

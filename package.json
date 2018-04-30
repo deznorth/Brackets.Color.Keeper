@@ -2,8 +2,8 @@
     "name": "dez.color.keeper",
     "title": "ColorKeeper",
     "description": "Add some colors through hex, keep track of them and insert them into your code",
-    "homepage": "deznorth.com",
-    "version": "1.0.0",
+    "homepage": "https://github.com/deznorth/Brackets.Color.Keeper",
+    "version": "1.0.1",
     "author": "David Rojas",
     "license": "MIT",
     "engines": {

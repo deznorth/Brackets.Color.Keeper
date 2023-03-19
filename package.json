@@ -3,7 +3,7 @@
     "title": "ColorKeeper",
     "description": "Add some colors through hex, keep track of them and insert them into your code",
     "homepage": "https://github.com/deznorth/Brackets.Color.Keeper",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "David Rojas",
     "license": "MIT",
     "engines": {
